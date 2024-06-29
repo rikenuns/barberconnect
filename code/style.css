@@ -54,6 +54,11 @@ h1 {
 }
 
 body{
+   background-color: rgb(188, 211, 190);
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 
 }
 
+.botoes{
+    font-size: 25px;
+}
