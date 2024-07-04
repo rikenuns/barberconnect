@@ -10,6 +10,9 @@ h1 {
     color: rgba(87, 207, 141, 0.952);
     display: flex;
 }
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
  
   .login{
         flex-direction: column;
@@ -60,5 +63,22 @@ body{
 }
 
 .botoes{
-    font-size: 25px;
+    font-size: 17px;
+    color: rgb(232, 233, 233);
+    padding: 4px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+ button{
+    background-color: rgb(61, 148, 107);
+    color: aliceblue;
+    border: none;
+    padding: 5px;
+    border-radius: 13px;
+    display: flex;
+    font-size: 12px;
+ }
+img{
+width: 150px;
 }
