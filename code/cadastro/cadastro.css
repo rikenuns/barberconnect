@@ -5,12 +5,13 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(188, 211, 190);
+    background-color: rgb(33, 70, 33);
+
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
-background-color: rgb(61, 148, 107);
+    background-color: rgb(44, 46, 45);
 display: flex;
 justify-content: end;
 padding: 15px;
