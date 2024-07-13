@@ -14,29 +14,54 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
  
-  .login{
-        flex-direction: column;
+form{
+    display: flex;
+    flex-direction: column;
         top: 50%;
         left: 50%;
         position: absolute;
         transform: translate(-50%, -50%);
         align-items: center; 
         gap: 12px;  
-        flex-direction: column;
-        display: flex;
         background-color: antiquewhite;
         border-radius: 12px;
-        width: 350px;
+        width: 400px;
         height: 500px;
         justify-content: center;
     }   
     
-    a{
-        text-decoration: none;
-        font-size: 15px;
-        color: rgb(227, 228, 227);
-        
-    }
+.conteiner-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteiner-login input{
+    border: none;
+    border-radius: 9px;
+    width: 330px;
+    height: 47px;
+    padding-left: 40px;
+}
+
+span{
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    margin-top: 13px;
+    color: gray;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(227, 228, 227);   
+}
    
    
     .href{
