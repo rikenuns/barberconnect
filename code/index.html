@@ -23,35 +23,31 @@
 <body>
     
 
-        <div class="login">
-           
-            
-            <p class="title">
-                
-                <img src="./img/perfil.png" alt="">
-                
-                <h1>BarberConnect</h1>
-            </p>
-           
-                    <span class="material-symbols-outlined">
-                    mail
-                    </span>
-            
-            <input type="login" placeholder="DIGITE SEU LOGIN"       required>    
-            <span class="material-symbols-outlined">
-                lock
-                </span>
+    <form class="conteiner-form">
+        <p class="title"> 
+            <img src="./img/perfil.png" alt="">
+            <h1>BarberConnect</h1>
+        </p>
+    <div class="conteiner-login">
+        <div>
+            <span class="material-symbols-outlined" id="icon-mail">mail</span>
+            <input type="login" placeholder="DIGITE SEU LOGIN" required>    
+        </div>
+        <div>
+            <span class="material-symbols-outlined" id="icon-pass">lock</span>
             <input type="password" placeholder="DIGITE SUA SENHA" required>
+        </div>
+       
+    </div> 
+       <div class="botoes">
+                <button id="entrar">ENTRAR</button>
 
-            
-           <div class="botoes">
-                    <button>ENTRAR</button>
-                    <button id="cadastro" >CADASTRAR-SE</button>
-          </div>
-            
-            <a href="#" class="href"> 
-              ESQUECI  MINHA SENHA
-            </a>
+                <button id="cadastro" >CADASTRAR-SE</button>
+      </div>
+        <a href="#" class="href"> 
+          ESQUECI  MINHA SENHA
+        </a>
+    </form>
     
 <script src="./login.js"></script>
 </body>
