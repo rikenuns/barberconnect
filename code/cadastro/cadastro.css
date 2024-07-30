@@ -1,17 +1,18 @@
+
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+
 }
 
 body{
     background-color: rgb(33, 70, 33);
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
-    background-color: rgb(44, 46, 45);
+ background-color: rgb(44, 46, 45);
 display: flex;
 justify-content: end;
 padding: 15px;
@@ -43,6 +44,7 @@ form{
     height: 430px;
     border-radius: 12px;
     
+    
 }
 
 button{
@@ -54,3 +56,5 @@ button{
     display: flex;
     font-size: 12px;
 }
+
+
