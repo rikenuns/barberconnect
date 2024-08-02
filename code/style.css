@@ -8,24 +8,23 @@
 
 
 h1 {
-    color: rgba(36, 141, 83, 0.952);
+   
     display: flex;
 }
 body{
-    font-family: "Source Code Pro", monospace;
-     background-color: rgb(33, 70, 33);
-}
+font-family: "Source Code Pro", monospace;
+background-color: #a2613e;}
  
 form{
         display: flex;
         flex-direction: column;
-        top: 50%;
+        top: 45%;
         left: 50%;
         position: absolute;
         transform: translate(-50%, -50%);
         align-items: center; 
         gap: 11px;  
-        background-color: antiquewhite;
+        background-color: #6b4e3a;
         border-radius: 12px;
         width: 400px;
         height: 500px;
@@ -55,27 +54,27 @@ span{
 .material-symbols-outlined{
     position: absolute;
     margin-top: 13px;
-    color: gray;
+    color: rgb(129, 127, 127);
     margin-left: 10px;
 }
 
 a{
     text-decoration: none;
     font-size: 15px;
-    color: rgb(227, 228, 227);   
+    color: rgb(216, 211, 211);   
 }
       
     .href{
-        color:  rgb(24, 26, 25) }
+        color:  rgb(214, 218, 216) }
 
     .suport{
-        background-color: rgb(44, 46, 45);
+        background-color: #5f422f;
         display: flex ;
         justify-content: flex-end;
         height: 50px;
         align-items: center;
-        gap: 10px;
-        padding: 10px;
+        gap: 15px;
+        padding: 22px;
 }
 
 .botoes{
@@ -87,7 +86,7 @@ a{
     gap: 15px;
 }
  button{
-    background-color: rgb(61, 148, 107);
+    background-color: rgb(43, 32, 26);
     color: aliceblue;
     border: none;
     padding: 5px;
@@ -96,5 +95,6 @@ a{
     font-size: 12px;
  }
 img{
-width: 150px;
+width: 210px;
 }
+
