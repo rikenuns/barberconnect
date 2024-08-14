@@ -10,3 +10,5 @@ cadastro.addEventListener("click",function(e){
    e.preventDefault()
    window.location="/code/home/home.html"
 }) */
+
+   
