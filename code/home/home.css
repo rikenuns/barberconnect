@@ -23,13 +23,13 @@ header{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(247, 243, 243);
 }
 header nav{
     display: flex;
     gap: 17px;
-    
 }
+
 
 
 .conteiner-menu-lateral{
@@ -105,4 +105,14 @@ header nav{
 .conteiner-menu-lateral:hover {
     opacity: 1;
     transform: translateY(0);
+}
+
+.imgh img{
+width: 550px;
+object-fit: cover;
+float: right;
+margin-right: 350px;
+margin-top: 55px;
+display:flex
+
 }
