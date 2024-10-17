@@ -9,15 +9,14 @@
 body{
      background-color: #a2613e;
      font-family: "Source Code Pro", monospace;
+     height: 500vh;
 }
     
 
 header{
-    background-color: #5f422f;
+background-color: #5f422f;
   width: 100%;
   padding: 15px;
-  display: flex;
-  justify-content: space-between;
   
 }
 
@@ -26,89 +25,53 @@ a{
     color: rgb(247, 243, 243);
 }
 header nav{
+    width: ;
     display: flex;
     gap: 17px;
+
 }
 
+nav.menu-lateral{
+    width: 280px;
+    height: 100%;
+    background-color: rgb(56, 54, 54);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #ffff;
+   
+  
+}
 
+.btn-expandir{
+  width: 100%; 
+  padding-left: 10px; 
+}
 
-.conteiner-menu-lateral{
-    padding: 22px;
-    flex-direction: column;
+.btn-expandir i{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 28px;   
+}
+
+ul {
+    height: 100%;
     display: flex;
-    gap: 50px;
-    width:350px;
-    height: 440px;
-    background-color: #5f422f;
-    border: 1px solid #aa7857;
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 0.3s, transform 0.3s;
-    z-index: 1000;
-}
-.conteiner-menu-lateral div {
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(236, 5, 5, 0.1);
-    padding: 10px 20px;
-    margin-bottom: 5px;
-    
+    flex-direction: column;
+    gap: 100px;
 }
 
-.conteiner-menu-lateral a {
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-    display: block;
+ul li.iten-menu:hover{
+    background: #a2613e;
+}
+ul li.iten-menu{
+    transition: 0.6s;
+    padding: 19px;
 }
 
-.conteiner-agendamentos{
-    background-color: rgb(15, 15, 15);
-    padding: 20px;
-    width: 300px;
-}
-.conteiner-faturamento{
-    background-color: rgb(15, 15, 15);
-    padding: 20px;
-    width: 300px;
+ul li.iten-menu a{
+color: aliceblue;
+text-decoration: none;
+font-size: 20px;
+margin-left: 10px;
 }
 
-.conteiner-aniversariantes{
-    background-color: rgb(15, 15, 15);
-    padding: 20px;
-    width: 300px;
-}
 
-.conteiner-cadastros{
-    background-color: rgb(15, 15, 15);
-    padding: 20px;
-    width: 300px;
-}
-
-.material-symbols-outlined{
-    color: antiquewhite;
-    cursor: pointer ;
-    
-    
-}
-
-.material-symbols-outlined:hover{
-    color: rgb(14, 13, 13);
-    padding: 10px;
-}
-
-.conteiner-menu-lateral a:hover {
-    background-color: #3b3737;
-    color: #a2613e;
-}
-
-.menu-icone:hover + .conteiner-menu-lateral,
-.conteiner-menu-lateral:hover {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.imgh img{
-width: 450px;
-object-fit: cover;
-float: right;
-}
