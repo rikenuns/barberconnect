@@ -13,7 +13,7 @@ h1 {
 }
 body{
 font-family: "Source Code Pro", monospace;
-background-color: #a2613e;}
+background-color: #a3603e;}
  
 form{
         display: flex;
@@ -68,7 +68,7 @@ a{
         color:  rgb(214, 218, 216) }
 
     .suport{
-        background-color: #5f422f;
+        background-color: #383736;
         display: flex ;
         justify-content: flex-end;
         height: 50px;

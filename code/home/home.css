@@ -11,7 +11,6 @@ body{
      font-family: "Source Code Pro", monospace;
      height: 500vh;
 }
-    
 
 header{
 background-color: #5f422f;
@@ -33,7 +32,7 @@ nav.menu-lateral{
     height: 100%;
     background-color: rgb(56, 54, 54);
     padding: 40px 0 40px ;
-    box-shadow: 3px 0 0 #dbd5d5;
+    box-shadow: 3px 0 0 #383736;
     position: fixed;
     top: 0;
     left: 0;
@@ -87,3 +86,4 @@ nav.menu-lateral:hover{
 .txt-link2{
     padding: 55px;
 }
+
