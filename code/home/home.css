@@ -40,10 +40,7 @@ nav.menu-lateral{
     transition: 0.3s;
 }
 
-.btn-expandir{
-  width: 100%; 
-  padding-left: 10px; 
-}
+
 
 .btn-expandir i{
     cursor: pointer;
@@ -87,3 +84,64 @@ nav.menu-lateral:hover{
     padding: 55px;
 }
 
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.card {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a2613e;
+    padding:75px;
+    font-size: 25px;
+    margin-left: 190px;
+}
+
+.suport {
+    display: flex;
+    gap: 29px;
+    float: right;
+    background-color: #3f3c3c; 
+    padding: 9px;
+ 
+}
+
+
+.suport a {
+    color: #a2613e; 
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transição suave */
+}
+
+.suport a:hover {
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    background-color: #a2613e; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;
+}
+
+.material-symbols-outlined{
+    color: #a2613e;
+    padding: 3px;
+
+}
