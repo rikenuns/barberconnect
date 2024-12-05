@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Code Pro", monospace;
+    background-color: #a3603e;}
+
+.top{
+    background-color:aqua;
+}
+
+.mensal{
+    background-color: brown;
+}
+
+.anual{
+    background-color: blueviolet;
+}
+
+
+
+.sign svg {
+    width: 25px; /* foto do zap */
+  }
