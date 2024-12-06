@@ -1,27 +1,155 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+
+
+body {
     font-family: "Source Code Pro", monospace;
-    background-color: #a3603e;}
-
-.top{
-    background-color:aqua;
+    background-color: #a3603e;
 }
 
-.mensal{
-    background-color: brown;
+.container {
+    margin-top: 50px;
+
 }
 
-.anual{
-    background-color: blueviolet;
+.top {
+    background-color: #383736;
+    color: rgb(216, 211, 211);
+    justify-content: center;
+    display: flex;
+}
+
+.mensal {
+    background-color: #383736;
+    color: rgb(216, 211, 211);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 30px;
+}
+
+.mensal {
+    text-align: center; /* Centraliza todo o conteúdo dentro do container */
+  }
+  
+  button {
+    display: block;     /* Garante que o botão ocupe uma linha inteira */
+    margin: 10px auto;  /* Adiciona margem automática para centralizar horizontalmente */
+    padding: 10px 20px; /* Ajusta o tamanho do botão */
+    background-color: #a3603e; /* Exemplo de cor para o botão */
+    color: white;       /* Cor do texto */
+    border: none;       /* Remove a borda padrão */
+    border-radius: 5px; /* Deixa o botão com cantos arredondados */
+    cursor: pointer;    /* Mostra o cursor de "mãozinha" ao passar o mouse */
+  }
+  
+  button:hover {
+    background-color: darkcyan
+  }
+  
+.anual {
+    background-color: #383736;
+    color: rgb(216, 211, 211);
+    margin-top: 65px;
+    border-radius: 20px;
+    margin-left: 10px
+}
+
+.anual ul{
+    justify-content: center;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    margin-left: 35px;
+    line-height: 1.7;
+}
+
+.zap{
+    color: #0dd757 ;
+}
+.anual-txt{
+color: #FFD700;
+}
+.anual h2 {
+    justify-content: center;
+    display: flex;
+}
+
+.btn-voltar{
+    margin-top: 50px;
+
+    
 }
 
 
 
 .sign svg {
-    width: 25px; /* foto do zap */
-  }
+    width: 25px;
+    /* foto do zap */
+}
+
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #0dd757;
+}
+
+
+
+.sign svg {
+    width: 25px;
+    /* foto do zap */
+}
+
+.sign svg path {
+    fill: white;
+}
+
+.text {
+    display: flex;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.Btn:hover {
+    width: 150px;
+    border-radius: 40px;
+    transition-duration: 0.3s;
+}
+
+.Btn:hover .sign {
+    width: 30%;
+    transition-duration: 0.3s;
+    padding-left: 10px;
+}
+
+.Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: 0.3s;
+    padding-right: 10px;
+}
+
+.Btn:active {
+    transform: translate(2px, 2px);
+}
