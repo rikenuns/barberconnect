@@ -9,6 +9,7 @@
 body {
     font-family: "Source Code Pro", monospace;
     background-color: #a3603e;
+    height: 125vh;
 }
 
 .container {
@@ -32,24 +33,76 @@ body {
 }
 
 .mensal {
-    text-align: center; /* Centraliza todo o conteúdo dentro do container */
-  }
-  
-  button {
-    display: block;     /* Garante que o botão ocupe uma linha inteira */
-    margin: 10px auto;  /* Adiciona margem automática para centralizar horizontalmente */
-    padding: 10px 20px; /* Ajusta o tamanho do botão */
-    background-color: #a3603e; /* Exemplo de cor para o botão */
-    color: white;       /* Cor do texto */
-    border: none;       /* Remove a borda padrão */
-    border-radius: 5px; /* Deixa o botão com cantos arredondados */
-    cursor: pointer;    /* Mostra o cursor de "mãozinha" ao passar o mouse */
-  }
-  
-  button:hover {
+    text-align: center;
+    /* Centraliza todo o conteúdo dentro do container */
+}
+
+.btn-1 {
+    display: block;
+    /* Garante que o botão ocupe uma linha inteira */
+    margin: 10px auto;
+    /* Adiciona margem automática para centralizar horizontalmente */
+    padding: 10px 20px;
+    /* Ajusta o tamanho do botão */
+    background-color: #a3603e;
+    /* Exemplo de cor para o botão */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Deixa o botão com cantos arredondados */
+    cursor: pointer;
+    /* Mostra o cursor de "mãozinha" ao passar o mouse */
+}
+
+button:hover {
     background-color: darkcyan
-  }
-  
+
+}
+
+.btn-2 {
+    display: block;
+    /* Garante que o botão ocupe uma linha inteira */
+    margin: 10px auto;
+    /* Adiciona margem automática para centralizar horizontalmente */
+    padding: 10px 20px;
+    /* Ajusta o tamanho do botão */
+    background-color: #a3603e;
+    /* Exemplo de cor para o botão */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Deixa o botão com cantos arredondados */
+    cursor: pointer;
+    /* Mostra o cursor de "mãozinha" ao passar o mouse */
+}
+
+
+ .material-symbols-outlined {  
+         border: none;
+        font-size: 24px; 
+        color: #fff; 
+        background-color: #383736; 
+        border-radius: 50%; 
+        padding: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+        cursor: pointer; 
+        transition: transform 0.2s, background-color 0.2s; 
+} 
+.btn-voltar{
+    border: none;
+    margin: 0;
+    padding: 2;
+    box-shadow: none;
+    background-color: #a3603e;
+    color: aliceblue;
+}
+
+ 
+
 .anual {
     background-color: #383736;
     color: rgb(216, 211, 211);
@@ -58,7 +111,7 @@ body {
     margin-left: 10px
 }
 
-.anual ul{
+.anual ul {
     justify-content: center;
     margin: 10px auto;
     display: block;
@@ -67,21 +120,17 @@ body {
     line-height: 1.7;
 }
 
-.zap{
-    color: #0dd757 ;
+.zap {
+    color: #0dd757;
 }
-.anual-txt{
-color: #FFD700;
+
+.anual-txt {
+    color: #FFD700;
 }
+
 .anual h2 {
     justify-content: center;
     display: flex;
-}
-
-.btn-voltar{
-    margin-top: 50px;
-
-    
 }
 
 
