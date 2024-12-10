@@ -30,11 +30,14 @@ body {
     border-radius: 20px;
     margin-left: 10px;
     padding: 30px;
+  
+
 }
 
 .mensal {
     text-align: center;
     /* Centraliza todo o conteúdo dentro do container */
+   
 }
 
 .btn-1 {
@@ -64,9 +67,10 @@ button:hover {
 .btn-2 {
     display: block;
     /* Garante que o botão ocupe uma linha inteira */
-    margin: 10px auto;
+    margin:10px auto;
     /* Adiciona margem automática para centralizar horizontalmente */
-    padding: 10px 20px;
+   
+    padding: 12px 20px;
     /* Ajusta o tamanho do botão */
     background-color: #a3603e;
     /* Exemplo de cor para o botão */
@@ -83,19 +87,17 @@ button:hover {
 
  .material-symbols-outlined {  
          border: none;
-        font-size: 24px; 
         color: #fff; 
         background-color: #383736; 
         border-radius: 50%; 
         padding: 10px; 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
         cursor: pointer; 
-        transition: transform 0.2s, background-color 0.2s; 
+        transition: transform 0.2s, background-color 0.2s;
+        margin-top: 40px;
 } 
 .btn-voltar{
     border: none;
-    margin: 0;
-    padding: 2;
     box-shadow: none;
     background-color: #a3603e;
     color: aliceblue;
@@ -108,7 +110,8 @@ button:hover {
     color: rgb(216, 211, 211);
     margin-top: 65px;
     border-radius: 20px;
-    margin-left: 10px
+    margin-left: 10px;
+    padding: 35px;
 }
 
 .anual ul {
