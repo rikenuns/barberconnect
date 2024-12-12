@@ -1,10 +1,11 @@
-const voltar=document.getElementById("voltar")
+document.addEventListener('DOMContentLoaded', function () {
+  
+    const btnVoltar = document.querySelector('.voltar');
+    
 
-voltar.addEventListener('click',function(e){
-    e.preventDefault()
-    window.location='/code/index.html'
-    console.log(2)
-
-})
+    btnVoltar.addEventListener('click', function () {
+        window.history.back(); 
+    });
+});
 
 
