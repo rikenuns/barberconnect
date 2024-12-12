@@ -27,19 +27,29 @@ body {
 .mensal {
     background-color: #383736;
     color: rgb(216, 211, 211);
+    margin-top: 65px;
     border-radius: 20px;
     margin-left: 10px;
-    padding: 30px;
-  
+    padding: 25px;
+    line-height: 1.7;
 
 }
 
-.mensal {
-    text-align: center;
-    
-    /* Centraliza todo o conteúdo dentro do container */
-   
+.mensal li{
+    margin-left: 55px;
 }
+
+.mensal-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .mensal ul{
+    line-height: 1.7;
+    margin-left: 35px;
+    align-items: start;
+} */
 
 .btn-1 {
     display: block;
@@ -60,8 +70,12 @@ body {
     /* Mostra o cursor de "mãozinha" ao passar o mouse */
 }
 
-button:hover {
-    background-color: darkcyan
+.btn-1:hover {
+    background-color: rgb(34, 189, 104)
+
+}
+.btn-2:hover {
+    background-color: rgb(34, 189, 104)
 
 }
 
@@ -114,6 +128,7 @@ button:hover {
     margin-left: 10px;
     padding: 35px;
 }
+
 
 .anual ul {
     justify-content: center;
