@@ -152,6 +152,26 @@ body {
     display: flex;
 }
 
+.whatsappButton{
+    display: block;
+    /* Garante que o botão ocupe uma linha inteira */
+    margin: 10px auto;
+    /* Adiciona margem automática para centralizar horizontalmente */
+    padding: 10px 20px;
+    /* Ajusta o tamanho do botão */
+    background-color: #a3603e;
+    /* Exemplo de cor para o botão */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Deixa o botão com cantos arredondados */
+    cursor: pointer;
+    /* Mostra o cursor de "mãozinha" ao passar o mouse */
+}
+
+
 
 
 .sign svg {
@@ -159,7 +179,7 @@ body {
     /* foto do zap */
 }
 
-.Btn {
+.Btn{
     display: flex;
     align-items: center;
     justify-content: center;
