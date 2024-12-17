@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     font-family: "Source Code Pro", monospace;
     background-color: #a3603e;
@@ -14,7 +12,6 @@ body {
 
 .container {
     margin-top: 50px;
-
 }
 
 .top {
@@ -32,19 +29,19 @@ body {
     margin-left: 10px;
     padding: 25px;
     line-height: 1.7;
-
 }
 
-.mensal li{
+.mensal li {
     margin-left: 55px;
 }
 
-.mensal-top{
+.mensal-top {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
 /* .mensal ul{
     line-height: 1.7;
     margin-left: 35px;
@@ -72,53 +69,50 @@ body {
 
 .btn-1:hover {
     background-color: rgb(34, 189, 104)
-
 }
+
 .btn-2:hover {
     background-color: rgb(34, 189, 104)
-
 }
 
 .btn-2 {
     display: block;
     /* Garante que o botão ocupe uma linha inteira */
-    margin:10px auto;
+    margin: 10px auto;
     /* Adiciona margem automática para centralizar horizontalmente */
-   
+
     padding: 12px 20px;
     /* Ajusta o tamanho do botão */
     background-color: #a3603e;
-    /* Exemplo de cor para o botão */
+
     color: white;
     /* Cor do texto */
     border: none;
     /* Remove a borda padrão */
     border-radius: 5px;
-    /* Deixa o botão com cantos arredondados */
+
     cursor: pointer;
     /* Mostra o cursor de "mãozinha" ao passar o mouse */
 }
 
+.material-symbols-outlined {
+    border: none;
+    color: #fff;
+    background-color: #383736;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    margin-top: 40px;
+}
 
- .material-symbols-outlined {  
-         border: none;
-        color: #fff; 
-        background-color: #383736; 
-        border-radius: 50%; 
-        padding: 10px; 
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-        cursor: pointer; 
-        transition: transform 0.2s, background-color 0.2s;
-        margin-top: 40px;
-} 
-.btn-voltar{
+.btn-voltar {
     border: none;
     box-shadow: none;
     background-color: #a3603e;
     color: aliceblue;
 }
-
- 
 
 .anual {
     background-color: #383736;
@@ -128,7 +122,6 @@ body {
     margin-left: 10px;
     padding: 35px;
 }
-
 
 .anual ul {
     justify-content: center;
@@ -152,92 +145,20 @@ body {
     display: flex;
 }
 
-.whatsappButton{
-    display: block;
-    /* Garante que o botão ocupe uma linha inteira */
-    margin: 10px auto;
-    /* Adiciona margem automática para centralizar horizontalmente */
-    padding: 10px 20px;
-    /* Ajusta o tamanho do botão */
-    background-color: #a3603e;
-    /* Exemplo de cor para o botão */
-    color: white;
-    /* Cor do texto */
-    border: none;
-    /* Remove a borda padrão */
-    border-radius: 5px;
-    /* Deixa o botão com cantos arredondados */
-    cursor: pointer;
-    /* Mostra o cursor de "mãozinha" ao passar o mouse */
-}
-
-
-
-
-.sign svg {
-    width: 25px;
-    /* foto do zap */
-}
-
-.Btn{
+.btn-zap button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
+    width: 65px;
+    height: 5px;
     cursor: pointer;
     position: fixed;
     right: 10px;
     bottom: 10px;
-    overflow: hidden;
-    transition-duration: 0.3s;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
-    background-color: #0dd757;
-}
-
-
-
-.sign svg {
-    width: 25px;
-    /* foto do zap */
-}
-
-.sign svg path {
-    fill: white;
-}
-
-.text {
-    display: flex;
-    right: 0%;
-    width: 0%;
-    opacity: 0;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 600;
-    transition-duration: 0.3s;
-}
-
-.Btn:hover {
-    width: 150px;
-    border-radius: 40px;
-    transition-duration: 0.3s;
-}
-
-.Btn:hover .sign {
-    width: 30%;
-    transition-duration: 0.3s;
-    padding-left: 10px;
-}
-
-.Btn:hover .text {
-    opacity: 1;
-    width: 70%;
-    transition-duration: 0.3s;
-    padding-right: 10px;
-}
-
-.Btn:active {
-    transform: translate(2px, 2px);
+    background-color: #383736;
+    color: #0dd757;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    border-radius: 35px;
 }
