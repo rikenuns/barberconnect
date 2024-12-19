@@ -2,16 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: "Source Code Pro", monospace;
     background-color: #a3603e;
-    height: 125vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+ 
+
+   
+ 
 }
 
 .container {
     margin-top: 50px;
+    max-width: 50vh;
+    
+ 
 }
 
 .top {
